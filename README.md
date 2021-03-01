@@ -55,13 +55,6 @@ Pones un número que equivale a uno de los personajes y te salen las evoluciones
 ![](https://lh4.googleusercontent.com/ZcKo4UgRpSCBCLcltV-bfoGCK_VLLToJPqXbou4Qz8xWF-WVe9B-ftlef9S2XZx2JbrIqiViSCQcQN5f6aNsOI2fbo_7XcTh_mWkEZZLVp4M07GgcaMYgtn_IHOorac2pYrk0IQt)
 
   
-
-**-GENERADOR EQUIPOS**
-
-Pulsas en generar y te da 6 pj aleatorio, si pulsas en eliminar lo eliminas todos y si pulsas en algún eliminar debajo de algún pj lo eliminas solo a ese(anteriormente si pulsas en la bola puse que se añadiría a tu equipo, si da tiempo claro)
-
-![](https://lh4.googleusercontent.com/r4FvWHyrnNHb6TVnHNey6sIHBVl--3pZ-5x9BrOMY0hcvPwNr52NMrv77AoLcilDqizZOXLTdtGID_JGhPpcsNQ6ANEZP5FTlypJghqvIhGyuAFJro3VCdCP4fcdlQ_JCPFfYlWw)
-
 **-LOGIN**
 
 Es básico pero pensaré cómo adornarlo o añadirle animaciones, posiblemente haga un register
