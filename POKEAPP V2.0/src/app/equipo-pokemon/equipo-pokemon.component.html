@@ -1,0 +1,34 @@
+<h1>Equipo Pokemon FAVS</h1>
+<br>
+<p>
+  <button
+    mat-flat-button
+    class="mat_buttom"
+    color="warn"
+    (click)="deleteTeam()"
+  >
+    Eliminar Equipo
+  </button>
+</p>
+<br />
+<mat-grid-list cols="3">
+  <mat-grid-tile *ngFor="let item of pokemonTeam; let i = index" [@fadeInOut]>
+    <mat-card class="example-card">
+      <img src="../assets/images/pokeball.png" width="20%" height="20%" />
+      <img
+        class="img"
+        [src]="pokemonTeam[i].getImage()"
+        width="90%"
+        height="90%"
+      />
+      <button
+        mat-flat-button
+        class="mat_buttom_del"
+        color="warn"
+        (click)="deletePokemon(item)"
+      >
+        Eliminar
+      </button>
+    </mat-card>
+  </mat-grid-tile>
+</mat-grid-list>
