@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "ppangularfirebase": {
+      "hosting": {
+        "proyectFinal": [
+          "ppangularfirebase"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "ppangularfirebase"
+  }
+}

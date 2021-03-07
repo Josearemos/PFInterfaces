@@ -1,0 +1,39 @@
+<nav>
+  <ul>
+    <li>
+      <a routerLink="" [class.activated]="currentUrl== '/'" [class.hover]="link1" (mouseover)="link1=true" (mouseout)="link1=false">
+        <i class="material-icons">home</i>
+      </a>
+    </li>
+    <li>
+      <a routerLink="catalog" [class.activated]="currentUrl == '/catalog'" [class.hover]="link2" (mouseover)="link2=true" (mouseout)="link2=false">
+        <i class="material-icons">shop</i>
+      </a>
+    </li>
+    <li>
+      <a routerLink="details" [class.activated]="currentUrl == '/details'" [class.hover]="link3" (mouseover)="link3=true" (mouseout)="link3=false">
+        <i class="material-icons">library_books</i>
+      </a>
+    </li>
+    <li>
+        <a routerLink="team" [class.activated]="currentUrl == '/team'" [class.hover]="link4" (mouseover)="link4=true" (mouseout)="link4=false">
+          <i class="material-icons">trip_origin</i>
+        </a>
+    </li>
+    <li>
+      <a routerLink="login" *ngIf="!isLogged" [class.activated]="currentUrl == '/login'" [class.hover]="link5" (mouseover)="link5=true" (mouseout)="link5=false">
+        <i class="material-icons">login</i>
+      </a>
+    </li>
+    <li>
+      <a routerLink="register" *ngIf="!isLogged" [class.activated]="currentUrl == '/register'" [class.hover]="link6" (mouseover)="link6=true" (mouseout)="link6=false">
+        <i class="material-icons">app_registration</i>
+      </a>
+    </li>
+    <li>
+      <a routerLink="" *ngIf="isLogged" [class.activated]="currentUrl == '/'" [class.hover]="link7" (click)="refresh()" (click)="onLogout()" (mouseover)="link7=true" (mouseout)="link7=false">
+        <i class="material-icons">logout</i>
+      </a>
+    </li>
+  </ul>
+</nav>
